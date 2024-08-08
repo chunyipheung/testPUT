@@ -12,7 +12,8 @@ jobs:
     steps:
     - name: Commit and push changes
       run: |
-        cd C:\\UFSystem_Peter\\educare-fixed
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add .
         git commit -m "Auto-update on push"
         git push origin main  # 确保你有正确的推送权限设置
