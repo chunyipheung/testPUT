@@ -12,6 +12,7 @@ jobs:
     steps:
     - name: Commit and push changes
       run: |
+        cd C:\\UFSystem_Peter\\educare-fixed
         git add .
         git commit -m "Auto-update on push"
         git push origin main  # 确保你有正确的推送权限设置
