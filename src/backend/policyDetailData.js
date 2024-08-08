@@ -15,5 +15,5 @@ export const policyDetailData = async (type,policyno) => {
         }
     }
 
-    return list;;;;
+    return list;;;
 }
