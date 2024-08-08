@@ -10,24 +10,8 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14'  # 根据你的项目需要设置
-
-    - name: Install dependencies
-      run: npm install  # 或者你的项目使用的包管理器和命令
-
-    - name: Build project
-      run: npm run build  # 或者你的项目构建命令
-
     - name: Commit and push changes
       run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add .
         git commit -m "Auto-update on push"
         git push origin main  # 确保你有正确的推送权限设置
