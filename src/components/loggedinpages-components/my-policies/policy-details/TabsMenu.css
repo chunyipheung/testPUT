@@ -1,0 +1,18 @@
+@media (min-width: 450px) {
+  .MuiButtonBase-root.MuiTabScrollButton-root.MuiTabScrollButton-horizontal.MuiTabs-scrollButtons {
+    @apply hidden
+  }
+}
+
+.MuiTab-textColorInherit.Mui-selected {
+  @apply text-violet-700 
+}
+
+.MuiTabs-indicator {
+  @apply bg-violet-700
+}
+
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit {
+  @apply hover:text-violet-700
+}
+

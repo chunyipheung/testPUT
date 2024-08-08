@@ -1,0 +1,16 @@
+.slick-dots {
+    @apply flex justify-center;
+}
+  
+.slick-dots li {
+    @apply mx-1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    @apply text-violet-950 text-4xl;
+}
+
+.slick-list{
+    @apply pb-10 ml-6 mr-3;
+}
