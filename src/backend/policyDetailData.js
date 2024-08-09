@@ -2,7 +2,7 @@ import { policyDetailData_TRL_HiEnd } from "./policyDetailData_TRL_HiEnd";
 
 export const policyDetailData = async (type,policyno) => {
     var list = [];
-    var test24 = [];
+    var test244 = [];
     var test2434 = [];
     if(type === "TRL-HiEnd"){
         var res = await policyDetailData_TRL_HiEnd("offline",policyno);
